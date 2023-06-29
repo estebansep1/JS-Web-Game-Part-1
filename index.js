@@ -9,10 +9,10 @@ function newImage(link, left, bottom,){
 }
 
 for (let x = 0; x < window.innerWidth; x += 100) {
-    for (let y = 0; y < window.innerHeight / 2; y += 100) {
-      newImage('assets/grass.png', x, y);
-    }
+  for (let y = 0; y < window.innerHeight / 2; y += 100) {
+    newImage('assets/grass.png', x, y);
   }
+}
   
   for (let x = 0; x < window.innerWidth; x += 100) {
     for (let y = window.innerHeight / 2; y < window.innerHeight; y += 100) {
